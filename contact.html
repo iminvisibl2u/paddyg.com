@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name = "description" content = "My Homepepage" />
+                <meta name='viewport' content='width=device-width, initial-scale=1'>
+		<title>Contact</title>      
+		<link rel="stylesheet" type="text/css" href="css/contact.css">
+                <script src="scripts/jquery-1.11.1.js"></script>
+		<script src="scripts/contact.js"></script>
+	</head>
+	<body>
+		<nav>
+			<ul id = "nav">
+				<li><a href = "index.html" class="notSelected">HOME</a></li>
+				<li><a href = "links.html" class="notSelected">LINKS</a></li>
+				<li><a href = "contact.html" class="selected">CONTACT</a></li>
+			</ul>
+		</nav>
+		<a href = "https://www.facebook.com/paddygcom" target = "_blank" id = "facebook"><img src = "images/facebook.png" alt="facebook logo" /></a>
+		<form id = "myForm" action = "" method = "post">
+			<p id = "pName">Name: <input id = "iName" type = "text" name = "iName" placeholder="Name" /></p>
+			<p id = "pEmail">Email: <input id = "iEmail" type = "email" name = "iEmail" placeholder="Email" /></p>
+			<p id = "pOpinion">What do you think so far :
+				<input id = "iGreat" type = "radio" name = "quality" value = "Great"/> Great
+				<input id = "iGood" type = "radio" name = "quality" value = "Good" /> Good
+				<input id = "iAverage" type = "radio" name = "quality" value = "Average" checked ="checked" /> Average
+				<input id = "iPoor" type = "radio" name = "quality" value = "Poor" /> Poor
+				<input id = "iTerrible" type = "radio" name = "quality" value = "Terrible" /> Terrible</p>
+			<p id = "pFeedback"><textarea id = "iFeedback" name = "feedback" placeholder = "Please leave me some feedback......."></textarea></p>
+                        <p id = "pSubmitButton"><button id = "iSubmitButton" type = "button" name = "submitButton">Submit </button>(COMING SOON)</p>
+			<p id = "pHidden"><input id = "iDate" type = "hidden" name = "iDate" /></p>
+		</form>
+                <div id="console">
+                    
+                </div>
+		<footer class = "clear">PaddyG.com &copy; Patrick Grady 2014</footer>
+	</body>
+</html>

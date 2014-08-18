@@ -1,0 +1,22 @@
+@import url(style.css);
+
+td, th, tr {
+	background-color: #288FBF;
+	border-style: groove;
+	border-color: black;
+	border-width: 4px;
+	padding: 8px;
+}
+
+th {
+	text-transform: uppercase;
+}
+
+#linkTable{
+    margin: 0px auto;
+}
+
+#newWindow{
+    text-align: center;
+    color: #288FBF;
+}

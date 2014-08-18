@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta http-equiv = "author" content = "Patrick Grady" />
+		<meta name = "description" content = "My Homepepage" />
+		<meta http-equiv = "pragma" content = "no-cache" />
+		<title>_TEMPLATE_</title>
+		<link rel="stylesheet" type="text/css" href="css/_TEMPLATE_.css">
+	</head>
+	<body>
+		<nav>
+			<ul id = "nav">
+				<li><a href = "index.html" class="selected">HOME</a></li>
+                                <li><a href = "apps.html" class="notSelected">APPS</a></li>
+				<li><a href = "links.html" class="notSelected">LINKS</a></li>
+				<li><a href = "contact.html" class="notSelected">CONTACT</a></li>
+			</ul>
+		</nav>
+		<a href = "https://www.facebook.com/iminvisibl2u" target = "_blank" id = "facebook"><img src = "images/facebook.png" /></a>
+
+
+		<footer class = "clear">PaddyG.com &copy; Patrick Grady 2014</footer>
+	</body>
+</html>

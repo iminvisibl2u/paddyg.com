@@ -1,0 +1,49 @@
+@import url(style.css);
+
+#UnderConstruction {
+	color: #E8E656;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: underline;
+}
+
+#searchForm {
+    text-align: center;
+}
+
+#left_pane, #right_pane {
+	height: 500px;
+	width: 40%;
+	background-color: #288FBF;
+	border: 0px solid;
+	border-radius: 25px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	overflow: visible;
+}
+
+#left_pane {
+	float: left;
+	margin-left: 55px;
+}
+
+#right_pane {	
+	float: right;
+	margin-right: 55px;
+}
+
+#left_pane_text, #right_pane_text {
+	color: #ABCDEF;
+	margin: 20px;
+	text-align: center;
+	text-indent: 20px;
+}
+
+#uc{
+    text-align: center;
+}
+
+#ucImage{
+    height: 400px;
+    margin: 0px;
+}

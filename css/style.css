@@ -1,0 +1,88 @@
+body {
+	color: black;
+	font-family: Arial, Verdana, Helvetica, Courier monospace;
+	font-size: 18px;
+	background-color: #ABCDEF;
+        background: url("../images/bg4.png");
+        background-size: 100%;
+	overflow: auto;
+}
+
+h1 {
+	font-size: 200%;
+}
+
+ul {
+	margin: 5px;
+        padding: 5px;
+}
+
+li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+a {
+	padding: 5px;
+        border-style: none;
+        border-radius: 10px;
+}
+
+a:link {
+	color: #512AFF;
+	text-decoration: none;
+	display: inline;
+}
+
+a:visited {
+	color: #A00E22;
+}
+
+a:hover {
+	background: #ABCDEF;
+	color: #FFFF00;
+}
+
+a:active {
+	color: #FFFF00;
+}
+
+nav {
+	width: 50%;
+        margin: 0 auto;
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	background-color: #C3E4F4;
+	border-radius: 10px;
+	border-style: dashed;
+	border-width: 1px;
+	border-color: #96CAFF;
+	outline: 0;
+}
+
+#facebook{ 
+	float: right;
+	clear: both;
+}
+
+footer {
+	text-align: center;
+	background-color: #C3E4F4;
+	border-radius: 10px;
+	border-style: dashed;
+	border-width: 1px;
+	border-color: #96CAFF;
+}
+
+.clear {
+	clear: both;
+}
+
+.selected {
+    background-color: #15cbdb;
+}
+
+.notSelected {
+    background-color: #C3E4F4;
+}

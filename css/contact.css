@@ -1,0 +1,52 @@
+@import url(style.css);
+
+#iDate, #iName, #iEmail, #iFeedback {
+	font-size: 120%;
+	color: black;
+	background-color: #F2F2F2;
+	border: 1px solid #BDBDBD;
+	border-radius: 10px;
+	padding: 5px 5px 5px 15px;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+#iFeedback {
+	width: 600px;
+	height: 200px;
+	overflow: auto;
+}
+
+#myForm {
+        color: black;
+        width: 60%;
+	margin: 0px auto;
+	padding: 5% 30%;
+}
+
+
+#iSubmitButton {
+	color: black;
+	border-bottom: 2px solid #979BA4;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+#iSubmitButton:hover {
+	color: #F1F3EA;
+	background-color: #615656;
+	border: 2px solid #37545D;
+	cursor: pointer;
+}
+
+#pSubmitButton{
+	margin: 20px;
+	padding: 30px;
+}
+
+#console{
+    background-color: black;
+    color: white;
+}
